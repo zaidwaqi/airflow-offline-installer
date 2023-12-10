@@ -39,3 +39,4 @@ cp airflow-constraints-2.7.3-3.11.txt /opt/airflow/
 cp install-airflow.sh /opt/airflow
 chown -R airflow:airflow /opt/airflow
 
+su - airflow -c "cd /opt/airflow && ./install-airflow.sh"
