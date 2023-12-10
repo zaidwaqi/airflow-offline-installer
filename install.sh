@@ -1,6 +1,6 @@
 dnf -y group install "Development Tools"
 dnf -y install perl-Pod-Html perl-IPC-Cmd
-dnf -y install libffi-devel zlib-devel krb5-devel mariadb-devel
+dnf -y install libffi-devel zlib-devel
 
 topdir=`pwd`
 
