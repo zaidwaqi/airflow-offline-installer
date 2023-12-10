@@ -1,0 +1,6 @@
+Collecting poetry-core
+  Obtaining dependency information for poetry-core from https://files.pythonhosted.org/packages/99/bc/058b8ff87871fce6615ad032d62c773272f243266b110f7b86d146cf78d8/poetry_core-1.8.1-py3-none-any.whl.metadata
+  Using cached poetry_core-1.8.1-py3-none-any.whl.metadata (3.5 kB)
+Using cached poetry_core-1.8.1-py3-none-any.whl (306 kB)
+Saved ./poetry_core-1.8.1-py3-none-any.whl
+Successfully downloaded poetry-core
