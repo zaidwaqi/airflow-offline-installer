@@ -28,6 +28,8 @@ CFLAGS="-I/eai/ssl/include/" CPPFLAGS="-I/eai/sqlite/include" LDFLAGS="-L/eai/ss
 make
 make install
 
+cd $topdir
+
 chmod -R o+rx /eai
 
 useradd airflow
