@@ -1,0 +1,10 @@
+{
+    // image being used
+     "image": "quay.io/centos/centos:stream8",
+    // set minimum cpu
+     "hostRequirements": {
+         "cpus": 4
+     },
+     // install dependencies and start app
+     "updateContentCommand": "dnf -y group install 'Development Tools' & dnf -y install perl-IPC-Cmd perl-Pod-Html"
+}
